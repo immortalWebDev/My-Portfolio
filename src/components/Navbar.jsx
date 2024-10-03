@@ -52,6 +52,7 @@ const Navbar = () => {
               <li
                 key={navlink.id}
                 onClick={() => {
+                  scrollToSection(navlink.id);
                   setShow(false);
                 }}
               >
