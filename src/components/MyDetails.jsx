@@ -1,4 +1,21 @@
+import Wrapper from "./UI/Wrapper";
+import personalImg from "../assets/comp.webp";
+import { BsGithub, BsLinkedin, BsMailbox, BsWhatsapp } from "react-icons/bs";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 const MyDetails = () => {
+  const classname = "h-screen flex items-center bg-violet-200";
+  const cursor = <div className="h-5 inline-block w-[0.2rem] bg-black"></div>;
+  const [text] = useTypewriter({
+    words: [
+      "Frontend Development.",
+      "State Management by Redux.",
+      "React Single Page Apps.",
+      "Problem Solving.",
+      "Data Structures & Algorithms.",
+    ],
+    loop: {},
+  });
   const scrollToSection = (sectionId, gap) => {
     const currentSection = document.querySelector(sectionId);
     if (currentSection) {
