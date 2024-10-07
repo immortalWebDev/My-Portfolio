@@ -60,13 +60,12 @@ const MyDetails = () => {
               My Resume
             </a>
           </div>
+
+          <div className="w-20 shadow-2xl hidden lg:block absolute top-0 -left-10 h-20 bg-violet-400 opacity-100 rotate-45 rounded-2xl"></div>
+          <div className="w-20 hidden lg:block absolute bottom-0 -right-10 h-20 bg-blue-500 opacity-100 rotate-45 rounded-2xl"></div>
         </div>
         <div className="">
-          <img
-            className="hidden lg:block scale-110"
-            src={personalImg}
-            alt="Portfolio"
-          />
+          <img className="hidden lg:block scale-110" src={personalImg} alt="Portfolio" />
         </div>
       </div>
       <div className="lg:grid hidden grid-rows-4 absolute gap-8 shadow-md ps-5 py-5 w-16 text-cyan-950 bg-violet-100 text-2xl transition ease-linear delay-10 duration-200 transform hover:-translate-y-2 hover:shadow-lg border border-[violet]">
@@ -74,7 +73,7 @@ const MyDetails = () => {
           <BsGithub className="text-sky-800 hover:text-orange-800" />
         </a>
         <a href="">
-          <BsLinkedin className="" />
+          <BsLinkedin className="text-sky-800  hover:text-orange-800" />
         </a>
         <a
           href="https://wa.me/7774835449"
