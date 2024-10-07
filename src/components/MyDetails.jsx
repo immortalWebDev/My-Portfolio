@@ -84,7 +84,7 @@ const MyDetails = () => {
           <BsWhatsapp className="text-sky-800  hover:text-orange-800" />
         </a>
         <a href="mailto:pgbadgujar007@gmail.com">
-          <BsMailbox className="" />
+          <BsMailbox className="text-sky-800  hover:text-orange-800" />
         </a>
       </div>
 
