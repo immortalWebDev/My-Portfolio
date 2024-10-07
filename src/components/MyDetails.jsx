@@ -69,15 +69,19 @@ const MyDetails = () => {
           />
         </div>
       </div>
-      <div className="ps-5 py-5 w-16 text-cyan-950 bg-violet-100 text-2xl transition ease-linear delay-10 duration-200 transform hover:-translate-y-2 hover:shadow-lg border border-[violet]">
+      <div className="lg:grid hidden grid-rows-4 absolute gap-8 shadow-md ps-5 py-5 w-16 text-cyan-950 bg-violet-100 text-2xl transition ease-linear delay-10 duration-200 transform hover:-translate-y-2 hover:shadow-lg border border-[violet]">
         <a href="https://github.com/immortalWebDev">
-          <BsGithub className="" />
+          <BsGithub className="text-sky-800 hover:text-orange-800" />
         </a>
         <a href="">
           <BsLinkedin className="" />
         </a>
-        <a href="https://wa.me/num" target="_blank" rel="noopener noreferrer">
-          <BsWhatsapp className="" />
+        <a
+          href="https://wa.me/7774835449"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsWhatsapp className="text-sky-800  hover:text-orange-800" />
         </a>
         <a href="mailto:pgbadgujar007@gmail.com">
           <BsMailbox className="" />
