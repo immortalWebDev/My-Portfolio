@@ -44,12 +44,15 @@ const MyDetails = () => {
             <Cursor cursorColor="black" cursorStyle={cursor} />
           </div>
 
-          <div className="text-xl italic mb-4">Front is my speciality</div>
+          <div className="text-xl italic mb-4">
+            Transforming ideas into dynamic, engaging web experiences with
+            precision and creativity.
+          </div>
 
-          <div className="">
+          <div className="flex items-center space-x-2">
             <button
-              onClick={() => scrollToSection("#contact", 3 * 11)}
-              className="px-5 mt-7 rounded-md "
+              onClick={() => scrollToSection("#contact", 4 * 16)}
+              className="px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-violet-950 py-3 bg-violet-800 transition ease-linear delay-50 duration-300 text-xl transform hover:-translate-y-1 hover:shadow-lg"
             >
               Recruit Me
             </button>
