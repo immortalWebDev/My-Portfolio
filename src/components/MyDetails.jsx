@@ -31,12 +31,14 @@ const MyDetails = () => {
   };
   return (
     <Wrapper id="home" classes={classname}>
-      <div className="grid relative h-3/4 lg:ps-12 lg:pe-12">
-        <div className="text-center">
-          <h1 className="text-4xl tracking-wider ">Hi! I am Piyush.</h1>
+      <div className="grid relative h-3/4 lg:ps-12 lg:pe-12 rounded-3xl border border-[deepskyblue] lg:bg-white lg:grid-cols-2 place-content-center items-center max-w-6xl w-11/12 mx-auto py-6 lg:shadow-lg">
+        <div className="text-center lg:text-start overflow-hidden">
+          <h1 className="text-4xl lg:text-5xl mb-3 tracking-wider text-cyan-950 font-bold">
+            Hi! I am Piyush.
+          </h1>
           <div className="mb-4">
-            <span className="text-2xl ">
-              <span className="text-cyan-950 block lg:inline">I like</span>{" "}
+            <span className="text-2xl tracking-wider overflow-hidden text-orange-700 font-bold capitalize">
+              <span className="text-cyan-950 block lg:inline">I am into</span>{" "}
               {text}
             </span>
             <Cursor cursorColor="black" cursorStyle={cursor} />
