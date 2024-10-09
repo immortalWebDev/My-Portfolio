@@ -1,13 +1,16 @@
+import Wrapper from "./UI/Wrapper";
+import { BsGithub, BsLinkedin, BsMailbox,BsWhatsapp } from "react-icons/bs";
+
 const Footer = () => {
   return (
-    <div>
+    <Wrapper classes="bg-slate-700 grid place-items-center py-5 text-center">
       <div>
-        <div>
+        <div className="grid grid-cols-4 w-52 mx-auto place-items-center mb-5 text-cyan-800 text-2xl">
           <a href="https://github.com/immortalWebDev">
-            Github
+            <BsGithub className="text-slate-50 hover:text-amber-500" />
           </a>
           <a href="">
-            LinkedIn
+            <BsLinkedin  className="text-slate-50 hover:text-amber-500"  />
           </a>
           <a href="https://wa.me/num" target="_blank" rel="noopener noreferrer">
             WhatsApp
