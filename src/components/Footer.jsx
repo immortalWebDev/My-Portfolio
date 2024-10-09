@@ -12,11 +12,11 @@ const Footer = () => {
           <a href="">
             <BsLinkedin  className="text-slate-50 hover:text-amber-500"  />
           </a>
-          <a href="https://wa.me/num" target="_blank" rel="noopener noreferrer">
-            WhatsApp
+          <a href="https://wa.me/7774835449" target="_blank" rel="noopener noreferrer">
+            <BsWhatsapp  className="text-slate-50 hover:text-amber-500"  />
           </a>
           <a href="mailto:pgbadgujar007@gmail.com">
-            Mail
+            <BsMailbox  className="text-slate-50 hover:text-amber-500"  />
           </a>
         </div>
         <p>
