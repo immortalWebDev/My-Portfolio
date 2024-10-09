@@ -18,12 +18,14 @@ const Footer = () => {
           <a href="mailto:pgbadgujar007@gmail.com">
             <BsMailbox  className="text-slate-50 hover:text-amber-500"  />
           </a>
+          
         </div>
-        <p>
-          Made by Piyush @ 2024 &copy; All rights reserved.
+        <p className="md:text-lg tracking-wide text-stone-50">
+          Made with 💘 by Piyush @ 2024 &copy; All rights reserved.
+          
         </p>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
