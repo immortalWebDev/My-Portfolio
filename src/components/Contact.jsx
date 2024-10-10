@@ -1,21 +1,33 @@
 import Wrapper from "./UI/Wrapper";
+import SectionTitle from "./UI/SectionTitle";
+import { BsMailbox2, BsWhatsapp, BsLinkedin, BsGithub } from "react-icons/bs";
+import { FaHandshake } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <Wrapper id="contact">
-      <div className="max-w-6xl mx-auto">
-        <div className="max-w-2xl flex h-[22rem] lg:h-[28rem] ">
+    <Wrapper id="contact" classes="bg-violet-100 py-10 relative">
+      <SectionTitle
+        classes="text-center mb-5"
+        title="Contact"
+        icon={<FaHandshake className="text-4xl text-yellow-950" />}
+      />
+      <div className="max-w-6xl w-11/12 mx-auto rounded-3xl h-3/4 lg:py-10">
+        <div className="max-w-2xl flex justify-center items-center p-4 mx-auto lg:w-2/5 h-[22rem] lg:h-[28rem] bg-white shadow-lg transition-transform transform hover:scale-105 ease-in-out duration-500 rounded-[3.5rem] border border-[deepskyblue]">
           <div className="text-center">
-            <p className="text-2xl">Call me to connect</p>
-            <div className="flex mb-8">
+            <p className="capitalize tracking-wider text-2xl mb-8 font-semibold text-violet-800">
+              let's connect professionally
+            </p>
+            <div className="flex flex-wrap items-center gap-2 mb-8">
+              <BsMailbox2 className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="mailto:pgbadgujar007@gmail.com"
-                className="md:text-xl tracking-wider"
+                className="md:text-xl tracking-wider text-rose-900 hover:text-violet-700 transition-colors duration-300"
               >
                 pgbadgujar007@gmail.com
               </a>
             </div>
             <div className="flex items-center flex-wrap gap-2 mb-8">
+              <BsWhatsapp className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="https://wa.me/917774835449"
                 target="_blank"
