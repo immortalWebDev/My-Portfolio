@@ -38,16 +38,18 @@ const Contact = () => {
               </a>
             </div>
             <div className="flex items-center flex-wrap gap-2 mb-8">
+              <BsLinkedin className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="md:text-xl tracking-wider"
+                className="md:text-xl tracking-wider text-rose-900 hover:text-violet-700 transition-colors duration-300"
               >
                 My LinkedIn
               </a>
-            </div>
-            <div className="flex items-center flex-wrap gap-2">
+              </div>
+              <div className="flex items-center flex-wrap gap-2">
+              <BsGithub className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="https://github.com/immortalWebDev"
                 target="_blank"
