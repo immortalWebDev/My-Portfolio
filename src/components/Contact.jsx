@@ -32,7 +32,7 @@ const Contact = () => {
                 href="https://wa.me/917774835449"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="md:text-xl tracking-wider"
+                className="md:text-xl tracking-wider text-rose-900 hover:text-violet-700 transition-colors duration-300"
               >
                 My WhatsApp (+91-7774835449)
               </a>
