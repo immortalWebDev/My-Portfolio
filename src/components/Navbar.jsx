@@ -115,7 +115,7 @@ const Navbar = () => {
             className="text-2xl text-red-700 cursor-pointer"
           />
         </div>
-      )}
+      </div>
     </>
   );
 };
