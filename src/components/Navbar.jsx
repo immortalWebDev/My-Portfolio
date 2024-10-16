@@ -77,26 +77,43 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button onClick={sidebarHandler}>Menu</button>
+          <div className="md:hidden justify-self-end ">
+            <FaBars
+              onClick={sidebarHandler}
+              className="text-2xl text-cyan-900 cursor-pointer"
+            />
+          </div>
         </div>
       </nav>
 
-      {show && (
-        <div>
-          <ul>
-            {navLinks.map((navlink) => (
-              <li
-                key={navlink.id}
-                onClick={() => {
-                  scrollToSection(navlink.id);
-                  setShow(false);
-                }}
-              >
-                {navlink.title}
-              </li>
-            ))}
-          </ul>
-          <button onClick={() => setShow(false)}>Close</button>
+      <div
+        className={`fixed md:hidden pt-10 mt-16 ${
+          show ? `translate-x-0` : `translate-x-[-100%]`
+        }  transition ease-in-out delay-400 duration-700 z-20 bg-lime-100 w-3/4 h-full`}
+      >
+        <ul className="grid gap-3 grid-rows-5">
+          {navLinks.map((navlink) => (
+            <li
+              onClick={() => {
+                scrollToSection(`${navlink.id}`, 4 * 16), setShow(false);
+              }}
+              key={navlink.id}
+              className="text-xl ps-5 py-2 cursor-pointer transition ease-in-out delay-400 duration-700 hover:bg-indigo-100"
+            >
+              <p className="flex items-center gap-4 cursor-pointer">
+                {navlink.icon}
+                <span className="capitalize tracking-wider">
+                  {navlink.title}
+                </span>
+              </p>
+            </li>
+          ))}
+        </ul>
+        <div className="absolute top-3 right-3">
+          <GiCrossMark
+            onClick={() => setShow(false)}
+            className="text-2xl text-red-700 cursor-pointer"
+          />
         </div>
       )}
     </>
