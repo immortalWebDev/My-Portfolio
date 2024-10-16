@@ -25,18 +25,16 @@ const navLinks = [
     title: "contact",
   },
 ];
-
 const Navbar = () => {
   const [show, setShow] = useState(false);
-
+  const [scrollingUp, setScrollingUp] = useState(false);
   const sidebarHandler = () => {
-    setShow((prevVal) => !prevVal);
+    setShow((preVal) => !preVal);
   };
-
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId, gap) => {
     const currentSection = document.querySelector(sectionId);
     if (currentSection) {
-      const targetPosition = currentSection.offsetTop;
+      const targetPosition = currentSection.offsetTop - gap;
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",
@@ -44,6 +42,15 @@ const Navbar = () => {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollingUp(window.scrollY > 0);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <nav
@@ -62,7 +69,9 @@ const Navbar = () => {
             {navLinks.map((navlink) => (
               <li
                 key={navlink.id}
-                onClick={() => scrollToSection(navlink.id)}
+                onClick={() => scrollToSection(`${navlink.id}`, 3 * 16)}
+                className="text-xl transition ease-linear delay-400 duration-300 hover:text-orange-700
+             capitalize tracking-wider cursor-pointer font-semibold text-blue-950"
               >
                 {navlink.title}
               </li>
