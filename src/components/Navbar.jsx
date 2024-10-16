@@ -1,11 +1,29 @@
-import { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { GiCrossMark } from "react-icons/gi";
+import { useState, useEffect } from "react";
+import portlogo from "../assets/portlogo.png";
 
 const navLinks = [
-  { id: "#home", title: "home" },
-  { id: "#about", title: "about" },
-  { id: "#skills", title: "skills" },
-  { id: "#projects", title: "projects" },
-  { id: "#contact", title: "contact" },
+  {
+    id: "#home",
+    title: "home",
+  },
+  {
+    id: "#about",
+    title: "about",
+  },
+  {
+    id: "#skills",
+    title: "skills",
+  },
+  {
+    id: "#projects",
+    title: "projects",
+  },
+  {
+    id: "#contact",
+    title: "contact",
+  },
 ];
 
 const Navbar = () => {
