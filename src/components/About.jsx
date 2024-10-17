@@ -25,7 +25,9 @@ const About = () => {
             accessibility.
             <br />
             <br />
-            <br />I am seeking opportunities to leverage my skills
+            I am seeking opportunities to leverage my skills in a collaborative
+            and forward-thinking team where I can contribute meaningfully and
+            continue to grow as a frontend developer.
           </p>
         </div>
         <img className="lg:block max-w-xl" src={aboutMeImg} alt="About Me" />
