@@ -30,7 +30,23 @@ const About = () => {
             continue to grow as a frontend developer.
           </p>
         </div>
-        <img className="lg:block max-w-xl" src={aboutMeImg} alt="About Me" />
+        <img className="lg:block max-w-xl mx-auto lg:mx-0 rounded-[100px]" src={aboutMeImg} alt="About Me" />
+      </div>
+
+      
+      <div className="absolute bottom-0 left-0 w-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 100"
+          className="w-full h-auto"
+        >
+          <path
+            fill="none"
+            stroke="blue"
+            strokeWidth="2"
+            d="M0,50 Q360,0 720,50 T1440,50"
+          />
+        </svg>
       </div>
     </Wrapper>
   );
