@@ -1,3 +1,4 @@
+import aboutMeImg from "../assets/aboutme.avif";
 import Wrapper from "./UI/Wrapper";
 import SectionTitle from "./UI/SectionTitle";
 import { BsPersonCircle } from "react-icons/bs";
