@@ -1,4 +1,6 @@
 import Wrapper from "./UI/Wrapper";
+import SectionTitle from "./UI/SectionTitle";
+import { BsPersonCircle } from "react-icons/bs";
 
 const About = () => {
   return (
