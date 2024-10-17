@@ -14,8 +14,16 @@ const About = () => {
             Here is who I am,
           </p>
           <p className="text-lg tracking-wider">
-            Hello! I'm <span className="font-semibold">Piyush</span> ,
-            Passionate Frontend Developer
+            Hello! I'm{" "}
+            <span className="text-cyan-900 font-semibold">Piyush Badgujar</span>{" "}
+            , Passionate Frontend Developer with a solid foundation in modern
+            web technologies. I specialize in creating dynamic and engaging user
+            experiences through my expertise in HTML, CSS, JavaScript, and
+            React, along with advanced skills in routing and state management
+            using Redux. I am dedicated to delivering responsive,
+            high-performance websites with a focus on optimization and
+            accessibility.
+            <br />
             <br />
             <br />I am seeking opportunities to leverage my skills
           </p>
