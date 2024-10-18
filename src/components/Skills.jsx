@@ -21,13 +21,14 @@ const skills = [
 
 const Skills = () => {
   return (
-    <Wrapper id="skills">
+    <Wrapper id="skills" classes="bg-purple-300 py-10 relative">
       <SectionTitle
-        classes="text-center"
+        classes="text-center lg:mb-5"
+        title="Tech Skills"
         icon={<FaTools className="text-3xl text-white" />}
       />
-      <div className="grid grid-cols-2 max-w-4xl w-11/12">
-        {skills.map((skill) => (
+      <div className="grid lg:grid-cols-3 grid-cols-2 max-w-4xl w-11/12 mx-auto content-center items-center h-3/4 lg:py-10 mt-6 gap-4 md:gap-10">
+        {skills.map((skill, index) => (
           <div
             key={index}
             className="grid items-center  ease-in-out duration-150"
