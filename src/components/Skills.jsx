@@ -31,10 +31,12 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="grid items-center  ease-in-out duration-150"
+            className="grid items-center justify-center bg-stone-100 rounded-md p-2 shadow-lg text-center border border-[#1E90FF] hover:-translate-y-1 hover:shadow-lg delay-100 ease-in-out duration-150"
           >
             <span>{skill.icon}</span>
-            <p className="font-bold capitalize">{skill.title}</p>
+            <p className="font-bold text-gray-800 md:text-2xl capitalize">
+              {skill.title}
+            </p>
           </div>
         ))}
       </div>
