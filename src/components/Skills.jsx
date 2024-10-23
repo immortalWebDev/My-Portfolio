@@ -1,4 +1,17 @@
-import { BiLogoJavascript, BiLogoHtml5, BiLogoCss3 } from "react-icons/bi";
+import {
+  BiLogoJavascript,
+  BiLogoHtml5,
+  BiLogoCss3,
+  BiLogoTailwindCss,
+  BiLogoReact,
+  BiLogoRedux,
+  BiLogoFirebase,
+  BiLogoGithub,
+  BiLogoNodejs,
+  BiLogoMongodb,
+} from "react-icons/bi";
+import { SiNextdotjs, SiVite } from "react-icons/si";
+import { FaBootstrap, FaDeploydog, FaTools } from "react-icons/fa";
 import Wrapper from "./UI/Wrapper";
 import SectionTitle from "./UI/SectionTitle";
 
