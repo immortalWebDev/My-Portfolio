@@ -1,4 +1,8 @@
-import React from "react";
+import eccomerceImg from "../assets/ecommere.png";
+import buttongeneratorImg from "../assets/button-generator.png";
+import mailboxImg from "../assets/mail-box.png";
+import expenseTrackerImg from "../assets/expense-tracker.png";
+import jobquestImg from "../assets/jobquest.png";
 
 const SingleProject = (props) => {
   const { projectInfo } = props;
