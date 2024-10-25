@@ -18,9 +18,9 @@ const SingleProject = (props) => {
       : jobquestImg;
 
   return (
-    <div className="group bg-gray-800 ">
+    <div className="group bg-gray-800 transition ease-in-out delay-400 duration-700 shadow-xl rounded-lg overflow-hidden hover:scale-105 hover:shadow-xl">
       <div className="grid">
-        <div className="relative">
+        <div className="relative transition ease-in-out delay-400 duration-700">
           <img
             className="transition ease-in-outgroup-hover:opacity-50"
             src={img}
