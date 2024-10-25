@@ -7,12 +7,15 @@ import jobquestImg from "../assets/jobquest.png";
 const SingleProject = (props) => {
   const { projectInfo } = props;
   const img =
-    project.img === "button"
-      ? buttongenerator
-      : projectInfo === "ecommerce"
-      ? eccomerce
-      : projectInfo === "expense"
-      
+    projectInfo.img === "button"
+      ? buttongeneratorImg
+      : projectInfo.img === "ecommerce"
+      ? eccomerceImg
+      : projectInfo.img === "expense"
+      ? expenseTrackerImg
+      : projectInfo.img === "mail"
+      ? mailboxImg
+      : jobquestImg;
 
   return (
     <div className="group bg-gray-800 ">
