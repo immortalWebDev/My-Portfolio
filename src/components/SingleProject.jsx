@@ -22,9 +22,9 @@ const SingleProject = (props) => {
       <div className="grid">
         <div className="relative transition ease-in-out delay-400 duration-700">
           <img
-            className="transition ease-in-outgroup-hover:opacity-50"
+            className="transition ease-in-out delay-400 duration-700 object-cover group-hover:opacity-50 group-hover:bg-yellow-500"
             src={img}
-            
+            alt="Project Image"
           />
           <div className="absolute grid text-center">
             <div>
