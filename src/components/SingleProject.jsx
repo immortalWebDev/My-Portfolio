@@ -26,11 +26,11 @@ const SingleProject = (props) => {
             src={img}
             alt="Project Image"
           />
-          <div className="absolute grid text-center">
+          <div className="absolute grid grid-rows-2 gap-3 border-cyan-900 transition ease-in-out delay-400 duration-700 opacity-0 group-hover:opacity-100 z-10 top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] text-center">
             <div>
               <a
                 href={projectInfo.link}
-                className=" hover:bg-blue-600 transition"
+                className="bg-blue-500 text-white px-3 py-1 text-lg rounded-md capitalize m-6 hover:bg-blue-600 transition"
               >
                 Visit Website
               </a>
