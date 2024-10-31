@@ -1,4 +1,6 @@
 import SingleProject from "./SingleProject";
+import SectionTitle from "./UI/SectionTitle";
+import { FaCode } from "react-icons/fa";
 
 const smallProjects = [
   {
