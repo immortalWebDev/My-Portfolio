@@ -38,7 +38,7 @@ const SingleProject = (props) => {
             <div>
               <a
                 href={projectInfo.sourceCode}
-                className="bg-blue-300 text-white px-3 py-1 text-lg rounded-md capitalize"
+                className="bg-green-500 text-white px-3 py-1 text-lg rounded-md capitalize  hover:bg-green-600 transition"
               >
                 Source Code
               </a>
@@ -54,7 +54,7 @@ const SingleProject = (props) => {
             {projectInfo.technologies.map((item, index) => (
               <span
                 key={index}
-                className="bg-slate-300 px-3 py-3 rounded-lg text-sm  text-gray-700 me-2 border border-[#9d9dda]"
+                className="bg-slate-300 px-3 py-1 rounded-lg text-sm  text-gray-900 me-2 border border-[#9d9dda]"
               >
                 {item}
               </span>
