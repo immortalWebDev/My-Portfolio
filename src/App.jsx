@@ -1,9 +1,15 @@
-import React from "react";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-     <h1>Main content scroll</h1>
+      <Navbar />
+      <About />
+      <Projects />
+      <Footer />
     </>
   );
 }
