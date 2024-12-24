@@ -49,7 +49,7 @@ const MyDetails = () => {
             precision and creativity.
           </div>
 
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 flex-wrap justify-center lg:justify-start">
             <button
               onClick={() => scrollToSection("#contact", 4 * 16)}
               className="px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-violet-950 py-3 bg-violet-800 transition ease-linear delay-50 duration-300 text-xl transform hover:-translate-y-1 hover:shadow-lg"
@@ -58,9 +58,10 @@ const MyDetails = () => {
             </button>
 
             <a
-              href="/path/to/your/resume.pdf"
+              href="https://www.snapit.tech/pgbadgujar007/5w3jtzcp1e"
               download
               className="px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-blue-950 py-3 bg-blue-800 transition ease-linear delay-50 duration-300 text-xl transform hover:-translate-y-1 hover:shadow-lg"
+              target="_blank"
             >
               My Resume
             </a>
@@ -70,7 +71,11 @@ const MyDetails = () => {
           <div className="w-20 hidden lg:block absolute bottom-0 -right-10 h-20 bg-blue-500 opacity-100 rotate-45 rounded-2xl"></div>
         </div>
         <div className="">
-          <img className="hidden lg:block scale-110" src={personalImg} alt="Portfolio" />
+          <img
+            className="hidden lg:block scale-110"
+            src={personalImg}
+            alt="Portfolio"
+          />
         </div>
       </div>
       <div className="lg:grid hidden grid-rows-4 absolute gap-8 shadow-md ps-5 py-5 w-16 text-cyan-950 bg-violet-100 text-2xl transition ease-linear delay-10 duration-200 transform hover:-translate-y-2 hover:shadow-lg border border-[violet]">
