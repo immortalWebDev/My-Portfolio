@@ -40,12 +40,12 @@ const Contact = () => {
             <div className="flex items-center flex-wrap gap-2 mb-8">
               <BsLinkedin className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
-                href=""
+                href="https://www.linkedin.com/in/immortalwebdev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="md:text-xl tracking-wider text-rose-900 hover:text-violet-700 transition-colors duration-300"
               >
-                My LinkedIn
+                My LinkedIn (immortalwebdev)
               </a>
               </div>
               <div className="flex items-center flex-wrap gap-2">
