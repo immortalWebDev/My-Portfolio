@@ -1,66 +1,8 @@
+import Wrapper from "./UI/Wrapper";
 import SingleProject from "./SingleProject";
 import SectionTitle from "./UI/SectionTitle";
 import { FaCode } from "react-icons/fa";
-
-const smallProjects = [
-  {
-    title: "Calculator App",
-    link: "https://example.com/calculator-app",
-  },
-  {
-    title: "Weather App",
-
-    link: "https://example.com/weather-app",
-  },
-  {
-    img: "translator",
-    link: "https://example.com/text-translator",
-  },
-  {
-    img: "todo",
-    link: "https://example.com/todo-app",
-  },
-  {
-    title: "Tip Calculator",
-
-    link: "https://example.com/tip-calculator",
-  },
-  {
-    title: "Stopwatch",
-
-    link: "https://example.com/stopwatch",
-  },
-  {
-    title: "Notes App",
-
-    link: "https://example.com/notes-app",
-  },
-  {
-    title: "Random Quote Generator",
-
-    link: "https://example.com/quote-generator",
-  },
-  {
-    title: "BMI Calculator",
-
-    link: "https://example.com/bmi-calculator",
-  },
-  {
-    title: "Unit Converter",
-
-    link: "https://example.com/unit-converter",
-  },
-  {
-    title: "Countdown Timer",
-
-    link: "https://example.com/countdown-timer",
-  },
-  {
-    title: "Currency Converter",
-
-    link: "https://example.com/currency-converter",
-  },
-];
+import { smallProjects } from "./projectData/smallProjects";
 
 const SmallProjects = () => {
   return (
