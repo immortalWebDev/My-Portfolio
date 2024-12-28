@@ -18,11 +18,11 @@ const SingleProject = (props) => {
       : jobquestImg;
 
   return (
-    <div className="group bg-gray-800 transition ease-in-out delay-400 duration-700 shadow-xl rounded-lg overflow-hidden hover:scale-105 hover:shadow-xl">
+    <div className="group bg-gray-800 transition ease-in-out delay-400 duration-700 shadow-xl rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl">
       <div className="grid">
-        <div className="relative transition ease-in-out delay-400 duration-700">
+        <div className="relative aspect-w-16 aspect-h-9 overflow-hidden transition ease-in-out delay-400 duration-700">
           <img
-            className="transition ease-in-out delay-400 duration-700 object-cover group-hover:opacity-50 group-hover:bg-yellow-500"
+            className="transition ease-in-out delay-400 duration-700 object-cover w-full h-full group-hover:opacity-50"
             src={img}
             alt="Project Image"
           />
@@ -38,7 +38,7 @@ const SingleProject = (props) => {
             <div>
               <a
                 href={projectInfo.sourceCode}
-                className="bg-green-500 text-white px-3 py-1 text-lg rounded-md capitalize  hover:bg-green-600 transition"
+                className="bg-green-500 text-white px-3 py-1 text-lg rounded-md capitalize hover:bg-green-600 transition"
               >
                 Source Code
               </a>
@@ -46,7 +46,7 @@ const SingleProject = (props) => {
           </div>
         </div>
 
-        <div className="mt-4 p-3 h-full bg-slate-100">
+        <div className="p-3.5 h-full bg-slate-200">
           <h1 className="capitalize text-xl text-gray-900 font-semibold">
             {projectInfo.title}
           </h1>
@@ -54,7 +54,7 @@ const SingleProject = (props) => {
             {projectInfo.technologies.map((item, index) => (
               <span
                 key={index}
-                className="bg-slate-300 px-3 py-1 rounded-lg text-sm  text-gray-900 me-2 border border-[#9d9dda]"
+                className="bg-slate-300 px-3 py-1 rounded-lg text-sm text-gray-900 me-2 border border-[#9d9dda]"
               >
                 {item}
               </span>
