@@ -1,21 +1,8 @@
-import eccomerceImg from "../assets/ecommere.png";
-import buttongeneratorImg from "../assets/button-generator.png";
-import mailboxImg from "../assets/mail-box.png";
-import expenseTrackerImg from "../assets/expense-tracker.png";
-import jobquestImg from "../assets/jobquest.png";
+import { projectImages } from "./projectData/projectImages";
 
-const SingleProject = (props) => {
-  const { projectInfo } = props;
-  const img =
-    projectInfo.img === "button"
-      ? buttongeneratorImg
-      : projectInfo.img === "ecommerce"
-      ? eccomerceImg
-      : projectInfo.img === "expense"
-      ? expenseTrackerImg
-      : projectInfo.img === "mail"
-      ? mailboxImg
-      : jobquestImg;
+const SingleProject = ({ projectInfo }) => {
+  
+  const img = projectImages[projectInfo.img] || projectImages["bg-changer"];
 
   return (
     <div className="group bg-gray-800 transition ease-in-out delay-400 duration-700 shadow-xl rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl">
