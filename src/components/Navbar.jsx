@@ -1,7 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import { GiCrossMark } from "react-icons/gi";
 import { useState, useEffect } from "react";
-import portlogo from "../assets/portlogo.png";
 
 const navLinks = [
   {
@@ -60,7 +59,7 @@ const Navbar = () => {
       >
         <div className="max-w-6xl w-11/12 mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={portlogo} className="w-20" alt="logo" />
+            <img src="https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/portlogo.png" className="w-20" alt="logo" />
             <h2 className="text-3xl font-bold text-blue-700 tracking-wider flex items-center gap-2">
               <span className="drop-shadow-md">My Portfolio</span>
             </h2>
