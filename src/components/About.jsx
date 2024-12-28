@@ -1,4 +1,3 @@
-import aboutMeImg from "../assets/aboutme.avif";
 import Wrapper from "./UI/Wrapper";
 import SectionTitle from "./UI/SectionTitle";
 import { BsPersonCircle } from "react-icons/bs";
@@ -43,7 +42,7 @@ const About = () => {
         <div className="flex justify-center lg:justify-start">
           <img
             className="w-full max-w-xs lg:max-w-xl mx-auto rounded-[100px] shadow-sm"
-            src={aboutMeImg}
+            src='https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/aboutme.avif'
             alt="About Me"
           />
         </div>

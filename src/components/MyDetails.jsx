@@ -1,5 +1,4 @@
 import Wrapper from "./UI/Wrapper";
-import personalImg from "../assets/comp.webp";
 import { BsGithub, BsLinkedin, BsMailbox, BsWhatsapp } from "react-icons/bs";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
@@ -73,7 +72,7 @@ const MyDetails = () => {
         <div className="">
           <img
             className="hidden lg:block scale-110"
-            src={personalImg}
+            src="https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/comp.webp"
             alt="Portfolio"
           />
         </div>
