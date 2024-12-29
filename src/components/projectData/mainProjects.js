@@ -13,6 +13,13 @@ export const mainProjects = [
     link: "https://great-mart-piyush.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Ecommerce-Mart",
   },
- 
+  {
+    title: "Coding Compiler - Rapid Compiler",
+    technologies: ["React", "Tailwindcss", "Rapid API"],
+    img: "rapid-compiler",
+    link: "",
+    sourceCode: "https://github.com/immortalWebDev/Rapid-Compiler",
+  },
 ];
 
+// hhhh
