@@ -6,5 +6,13 @@ export const mainProjects = [
     link: "https://client-mail-box-piyush.vercel.app/auth",
     sourceCode: "https://github.com/immortalWebDev/Client-Mail-Box",
   },
-  
+  {
+    title: "Ecommerce Website - Great Mart",
+    technologies: ["React", "Redux", "Firebase"],
+    img: "ecommerce-mart",
+    link: "https://great-mart-piyush.vercel.app/",
+    sourceCode: "https://github.com/immortalWebDev/Ecommerce-Mart",
+  },
+ 
 ];
+
