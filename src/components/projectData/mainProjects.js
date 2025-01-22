@@ -14,12 +14,17 @@ export const mainProjects = [
     sourceCode: "https://github.com/immortalWebDev/Ecommerce-Mart",
   },
   {
-    title: "Coding Compiler - Rapid Compiler",
+    title: "Coding Compiler - RapidCompiler",
     technologies: ["React", "Tailwindcss", "Rapid API"],
     img: "rapid-compiler",
     link: "",
     sourceCode: "https://github.com/immortalWebDev/Rapid-Compiler",
   },
+  {
+    title: "Expense Tracker - ExpenseEagle!",
+    technologies: ["React", "Firebase", "Bootstrap"],
+    img: "expense-track",
+    link: "https://expense-tracker-piyush.vercel.app/signup",
+    sourceCode: "https://github.com/immortalWebDev/Expense-Tracker",
+  },
 ];
-
-// hhhh

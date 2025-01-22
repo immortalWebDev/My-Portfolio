@@ -8,14 +8,14 @@ export const smallProjects = [
   },
   {
     title: "Background Remover",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript","API"],
     img: "bg-remover",
     link: "https://bg-remover-piyush.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Background-remover",
   },
   {
     title: "Text Manager",
-    technologies: ["HTML", "JavaScript", "CSS"],
+    technologies: ["HTML", "JavaScript", "CSS","NPM"],
     img: "text-manager",
     link: "https://text-master-piyush-immortalwebdevs-projects.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Text-Master",
