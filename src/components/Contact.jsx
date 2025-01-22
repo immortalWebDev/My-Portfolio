@@ -12,12 +12,12 @@ const Contact = () => {
         icon={<FaHandshake className="text-4xl text-yellow-950" />}
       />
       <div className="max-w-6xl w-11/12 mx-auto rounded-3xl h-3/4 lg:py-10">
-        <div className="max-w-2xl flex justify-center items-center p-4 mx-auto lg:w-2/5 h-[22rem] lg:h-[28rem] bg-white shadow-lg transition-transform transform hover:scale-105 ease-in-out duration-500 rounded-[3.5rem] border border-[deepskyblue]">
-          <div className="text-center">
-            <p className="capitalize tracking-wider text-2xl mb-8 font-semibold text-violet-800">
+        <div className="max-w-2xl flex justify-center items-center p-4 mx-auto lg:w-2/5 h-[22rem] lg:h-[28rem] bg-white shadow-lg rounded-[1.5rem] border border-[deepskyblue]">
+          <div className="text-center text-sm">
+            <p className="capitalize tracking-wider text-2xl mb-7 font-semibold text-violet-800">
               let's connect professionally
             </p>
-            <div className="flex flex-wrap items-center gap-2 mb-8">
+            <div className="flex flex-wrap items-center gap-2 mb-7">
               <BsMailbox2 className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="mailto:pgbadgujar007@gmail.com"
@@ -26,7 +26,7 @@ const Contact = () => {
                 pgbadgujar007@gmail.com
               </a>
             </div>
-            <div className="flex items-center flex-wrap gap-2 mb-8">
+            <div className="flex items-center flex-wrap gap-2 mb-7">
               <BsWhatsapp className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="https://wa.me/917774835449"
@@ -37,7 +37,7 @@ const Contact = () => {
                 My WhatsApp (+91-7774835449)
               </a>
             </div>
-            <div className="flex items-center flex-wrap gap-2 mb-8">
+            <div className="flex items-center flex-wrap gap-2 mb-7">
               <BsLinkedin className="text-4xl text-rose-900 hover:text-violet-700 transition-colors duration-300" />
               <a
                 href="https://www.linkedin.com/in/immortalwebdev/"
@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full">
+      <div className="w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 100"
