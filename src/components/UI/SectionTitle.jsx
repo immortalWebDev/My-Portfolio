@@ -4,7 +4,7 @@ const SectionTitle = (props) => {
   return (
     <div className={`flex justify-center gap-3 items-center ${classes}`}>
       <span>{icon}</span>
-      <h2 className="capitalize text-4xl tracking-wider font-bold">{title}</h2>
+      <h2 className="md:text-3xl capitalize sm:text-2xl tracking-wider font-bold">{title}</h2>
     </div>
   );
 };

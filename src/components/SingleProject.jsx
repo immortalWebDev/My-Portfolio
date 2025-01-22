@@ -19,7 +19,7 @@ const SingleProject = ({ projectInfo }) => {
                 href={projectInfo.link}
                 className="bg-blue-500 text-white px-3 py-1 text-lg rounded-md capitalize m-6 hover:bg-blue-600 transition"
               >
-                Visit Website
+                See Live
               </a>
             </div>
             <div>
@@ -34,7 +34,7 @@ const SingleProject = ({ projectInfo }) => {
         </div>
 
         <div className="p-3.5 h-full bg-slate-200">
-          <h1 className="capitalize text-xl text-gray-900 font-semibold">
+          <h1 className="capitalize text-base text-gray-900 font-semibold">
             {projectInfo.title}
           </h1>
           <div className="mt-3">

@@ -21,7 +21,7 @@ const Footer = () => {
           
         </div>
         <p className="md:text-lg tracking-wide text-stone-50">
-          Made with 💘 by Piyush @ 2024 &copy; All rights reserved.
+          Made with 💘 by Piyush &copy; @{new Date().getFullYear()} All rights reserved.
           
         </p>
       </div>

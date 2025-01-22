@@ -7,11 +7,12 @@ const MyDetails = () => {
   const cursor = <div className="h-5 inline-block w-[0.2rem] bg-black"></div>;
   const [text] = useTypewriter({
     words: [
-      "Frontend Development.",
-      "State Management by Redux.",
-      "React Single Page Apps.",
-      "Problem Solving.",
-      "Data Structures & Algorithms.",
+      "JavaSCript, HTML & CSS",
+      "Frontend Development",
+      "Redux Toolkit",
+      "React Single Page Apps",
+      "Problem Solving",
+      "Data Structures & Algo.",
     ],
     loop: {},
   });
@@ -51,15 +52,15 @@ const MyDetails = () => {
           <div className="flex items-center space-x-2 flex-wrap justify-center lg:justify-start">
             <button
               onClick={() => scrollToSection("#contact", 4 * 16)}
-              className="px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-violet-950 py-3 bg-violet-800 transition ease-linear delay-50 duration-300 text-xl transform hover:-translate-y-1 hover:shadow-lg"
+              className="text-sm px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-violet-950 py-3 bg-violet-800 transition ease-linear delay-50 duration-300 transform hover:-translate-y-1 hover:shadow-lg"
             >
-              Recruit Me
+              Contact
             </button>
 
             <a
               href="https://www.snapit.tech/pgbadgujar007/5w3jtzcp1e"
               download
-              className="px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-blue-950 py-3 bg-blue-800 transition ease-linear delay-50 duration-300 text-xl transform hover:-translate-y-1 hover:shadow-lg"
+              className="text-sm px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-blue-950 py-3 bg-blue-800 transition ease-linear delay-50 duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               target="_blank"
             >
               My Resume

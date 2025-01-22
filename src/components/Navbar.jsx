@@ -88,7 +88,7 @@ const Navbar = () => {
       <div
         className={`fixed md:hidden pt-10 mt-16 ${
           show ? `translate-x-0` : `translate-x-[-100%]`
-        }  transition ease-in-out delay-400 duration-700 z-20 bg-lime-100 w-3/4 h-full`}
+        }  transition ease-in-out delay-400 duration-700 z-20 bg-blue-200 w-3/4 h-full`}
       >
         <ul className="grid gap-3 grid-rows-5">
           {navLinks.map((navlink) => (
