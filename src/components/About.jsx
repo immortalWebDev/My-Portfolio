@@ -1,6 +1,8 @@
 import Wrapper from "./UI/Wrapper";
 import SectionTitle from "./UI/SectionTitle";
-import { BsPersonCircle } from "react-icons/bs";
+import {
+  BsPersonWorkspace,
+} from "react-icons/bs";
 
 const About = () => {
   return (
@@ -9,40 +11,44 @@ const About = () => {
         <div>
           <SectionTitle
             classes="text-center mb-9"
-            title="about me"
-            icon={<BsPersonCircle className="text-4xl text-cyan-950" />}
+            title="my story"
+            icon={<BsPersonWorkspace className="text-4xl text-cyan-950" />}
           />
           <p className="text-2xl capitalize font-semibold text-cyan-900 mb-4">
             Here is who I am,
           </p>
-          <p className="text-lg tracking-wider">
+          <p className="text-lg tracking-wider sm:text-base lg:text-lg">
             Hello! I'm{" "}
             <span className="text-cyan-900 font-semibold">
               <a
                 href="https://www.linkedin.com/in/immortalwebdev/"
                 target="_blank"
               >
-                Piyush Badgujar
+                <b>Piyush</b>
               </a>
-            </span>{" "}
-            , Passionate Frontend web Developer with a solid foundation in
-            modern web technologies. I specialize in creating dynamic and
-            engaging user experiences through my expertise in HTML, CSS,
-            JavaScript, and React, along with advanced skills in routing and
-            state management using Redux. I am dedicated to delivering
-            responsive, high-performance websites with a focus on optimization
-            and accessibility.
+            </span>
+            , Passionate <strong>Frontend web Developer</strong> with a solid
+            foundation in modern web technologies. I like creating{" "}
+            <strong>dynamic</strong> and engaging user experiences through my
+            interest in <strong>HTML</strong>, <strong>CSS</strong>,{" "}
+            <strong>JavaScript</strong>, and <strong>React</strong>, along with
+            advanced skills in <strong>routing</strong> and{" "}
+            <strong>state management</strong> using <strong>Redux</strong>. I am{" "}
+            <b>dedicated</b> to delivering <strong>responsive</strong>,
+            high-performance websites with a focus on{" "}
+            <strong>optimization</strong> and <strong>accessibility</strong>.
             <br />
-            <br />I am seeking opportunities to leverage my skills in a
-            collaborative and forward-thinking team where I can contribute
-            meaningfully and continue to grow as a frontend developer.
+            <br />I am seeking opportunities to leverage my skills in a{" "}
+            <b>collaborative</b> and <b>forward-thinking</b> team where I can
+            contribute meaningfully and continue to <b>grow</b> as a{" "}
+            <b>frontend</b> developer.
           </p>
         </div>
 
         <div className="flex justify-center lg:justify-start">
           <img
             className="w-full max-w-xs lg:max-w-xl mx-auto rounded-[100px] shadow-sm"
-            src='https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/aboutme.avif'
+            src="https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/aboutme.avif"
             alt="About Me"
           />
         </div>

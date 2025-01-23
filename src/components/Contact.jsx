@@ -8,7 +8,7 @@ const Contact = () => {
     <Wrapper id="contact" classes="bg-violet-100 py-10 relative">
       <SectionTitle
         classes="text-center mb-5"
-        title="Contact"
+        title="Connection"
         icon={<FaHandshake className="text-4xl text-yellow-950" />}
       />
       <div className="max-w-6xl w-11/12 mx-auto rounded-3xl h-3/4 lg:py-10">

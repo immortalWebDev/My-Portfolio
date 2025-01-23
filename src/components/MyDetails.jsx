@@ -7,7 +7,7 @@ const MyDetails = () => {
   const cursor = <div className="h-5 inline-block w-[0.2rem] bg-black"></div>;
   const [text] = useTypewriter({
     words: [
-      "JavaSCript, HTML & CSS",
+      "HTML, CSS & JavaScript",
       "Frontend Development",
       "Redux Toolkit",
       "React Single Page Apps",
@@ -82,7 +82,7 @@ const MyDetails = () => {
         <a href="https://github.com/immortalWebDev">
           <BsGithub className="text-sky-800 hover:text-orange-800" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/immortalwebdev/">
           <BsLinkedin className="text-sky-800  hover:text-orange-800" />
         </a>
         <a

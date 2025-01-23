@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 const navLinks = [
   {
     id: "#home",
-    title: "home",
+    title: "Main",
   },
   {
     id: "#about",
-    title: "about",
+    title: "story",
   },
   {
     id: "#skills",
@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     id: "#contact",
-    title: "contact",
+    title: "connect",
   },
 ];
 const Navbar = () => {
@@ -58,13 +58,13 @@ const Navbar = () => {
         } transition duration-150 delay-50 ease-linear fixed w-full flex align-middle z-10`}
       >
         <div className="max-w-6xl w-11/12 mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <img src="https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/portlogo.png" className="w-20" alt="logo" />
-            <h2 className="text-3xl font-bold text-blue-700 tracking-wider flex items-center gap-2">
-              <span className="drop-shadow-md">My Portfolio</span>
+            <h2 className="text-3xl font-bold font-playwrite text-blue-700 tracking-wider flex items-center gap-2">
+              <span className="drop-shadow-md lg:text-2xl sm:text-base">My Portfolio</span>
             </h2>
           </div>
-          <ul className="place-items-center px-3 md:flex hidden gap-10">
+          <ul className="place-items-center px-3 md:flex hidden gap-9 font-monospace">
             {navLinks.map((navlink) => (
               <li
                 key={navlink.id}
@@ -88,7 +88,7 @@ const Navbar = () => {
       <div
         className={`fixed md:hidden pt-10 mt-16 ${
           show ? `translate-x-0` : `translate-x-[-100%]`
-        }  transition ease-in-out delay-400 duration-700 z-20 bg-blue-200 w-3/4 h-full`}
+        }  transition ease-in-out delay-400 duration-700 z-20 bg-[#EDE9FE] w-3/4 h-full`}
       >
         <ul className="grid gap-3 grid-rows-5">
           {navLinks.map((navlink) => (

@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm': '350px', //custom breakpoint check
+        'sm': '350px', //custom breakpoint (check)
+      },
+      fontFamily: {
+        playwrite: ['Playwrite IN', 'sans-serif'], //custom font
+        monospace:['monospace'],
+        
       },
     },
     plugins: [],

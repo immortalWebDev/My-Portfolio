@@ -9,7 +9,7 @@ const SmallProjects = () => {
     <Wrapper id="small-projects" classes="bg-green-100 py-10 relative">
       <SectionTitle
         classes="text-center mb-5"
-        title="Note Worthy Projects"
+        title="Mini Endeavors"
         icon={<FaCode className="text-4xl text-blue-700" />}
       />
       <div className="max-w-6xl w-11/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6 rounded-3xl h-3/4 lg:py-10">
