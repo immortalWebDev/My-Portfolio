@@ -27,5 +27,11 @@ export const smallProjects = [
     link: "https://drawing-pad-piyush.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Drawing-pad",
   },
- 
+  {
+    title: "Tic-Tac-Toe",
+    technologies: ["React", "Bootstrap", "CSS"],
+    img: "tic-tac-toe",
+    link: "https://tic-tac-toe-piyush.vercel.app/",
+    sourceCode: "https://github.com/immortalWebDev/Tic-tac-toe",
+  },
 ];
