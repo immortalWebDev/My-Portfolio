@@ -5,7 +5,7 @@ import './index.css'
 import MaintenancePage from './components/MaintenancePage/MaintenancePage.jsx'
 
 
-const isMaintenanceMode = true
+const isMaintenanceMode = false
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
