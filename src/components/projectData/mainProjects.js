@@ -8,16 +8,16 @@ export const mainProjects = [
   },
   {
     title: "Ecommerce Website - Great Mart",
-    technologies: ["React", "Redux", "Firebase"],
+    technologies: ["React", "Redux", "Firebase","AI"],
     img: "ecommerce-mart",
     link: "https://great-mart-piyush.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Ecommerce-Mart",
   },
   {
-    title: "Coding Compiler - RapidCompiler",
+    title: "Client Coding Compiler - RapidCompiler",
     technologies: ["React", "Tailwindcss", "Rapid API"],
     img: "rapid-compiler",
-    link: "",
+    link: "https://rapid-compiler.vercel.app/",
     sourceCode: "https://github.com/immortalWebDev/Rapid-Compiler",
   },
   {
