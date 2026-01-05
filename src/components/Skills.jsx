@@ -37,7 +37,7 @@ const skills = [
     icon: <BiLogoReact className="text-6xl px-2 inline pe-2 text-sky-600" />,
   },
   {
-    title: "Redux & Toolkit",
+    title: "Redux Toolkit",
     icon: <BiLogoRedux className="text-6xl text-purple-500 px-2 inline pe-2" />,
   },
   {
@@ -74,28 +74,28 @@ const skills = [
     icon: <FaBootstrap className="text-6xl text-orange-600 px-2 inline pe-2" />,
   },
 
-  {
-    title: "Next JS",
-    icon: <SiNextdotjs className="text-6xl text-black-600 px-2 inline pe-2" />,
-  },
+  // {
+  //   title: "Next JS",
+  //   icon: <SiNextdotjs className="text-6xl text-black-600 px-2 inline pe-2" />,
+  // },
 
-  {
-    title: "Node JS",
-    icon: (
-      <BiLogoNodejs className="text-6xl  text-green-400 px-2 inline pe-2" />
-    ),
-  },
+  // {
+  //   title: "Node JS",
+  //   icon: (
+  //     <BiLogoNodejs className="text-6xl  text-green-400 px-2 inline pe-2" />
+  //   ),
+  // },
 
   {
     title: "Postman",
     icon: <SiPostman className="text-6xl px-2 inline pe-2" />,
   },
-  {
-    title: "Mongo DB",
-    icon: (
-      <BiLogoMongodb className="text-6xl text-green-600 px-2 inline pe-2" />
-    ),
-  },
+  // {
+  //   title: "Mongo DB",
+  //   icon: (
+  //     <BiLogoMongodb className="text-6xl text-green-600 px-2 inline pe-2" />
+  //   ),
+  // },
 
   {
     title: "Deployment",
