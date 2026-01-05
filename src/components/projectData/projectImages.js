@@ -15,6 +15,8 @@ export const projectImages = {
     "bg-changer": "https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@c3730014d8a30677355bb9ce7c21b13afb065399/portfolio-images/bg-changer.png",
     "rapid-compiler":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@6a1ba27f4b4d86f0b4a0a14a2a5cbdfaadc542d0/portfolio-images/rapid-compiler.png",
     "bill-split": "https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@b2fca21bf2b79494f70f2970e47762b3cede12d6/portfolio-images/bill-split.jpg",
-    "expense-track":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@8f2d764ed798d091f0556407373901c2ecd408b7/expense-tracker/expense-track.webp"
+    "expense-track":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@8f2d764ed798d091f0556407373901c2ecd408b7/expense-tracker/expense-track.webp",
+    "goal-setter":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@acd5f5cd1b0ea3aaf3a5ced8fc92c43eb0b81ac5/todays-tasks/goal-setter.jpg",
+    "ai-search":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@772e6aceb763c1d8cf7f786f1fdfe7676842896e/portfolio-images/ai-search.webp",
   };
   

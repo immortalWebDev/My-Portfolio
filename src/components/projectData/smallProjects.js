@@ -7,6 +7,13 @@ export const smallProjects = [
     sourceCode: "https://github.com/immortalWebDev/Countries-data",
   },
   {
+    title: "Live Image Search + AI captions",
+    technologies: ["HTML", "CSS", "JavaScript","API","AI"],
+    img: "ai-search",
+    link: "https://spectra-search-piyush.vercel.app/",
+    sourceCode: "https://github.com/immortalWebDev/vista-ai-search",
+  },
+  {
     title: "Background Remover",
     technologies: ["HTML", "CSS", "JavaScript","API"],
     img: "bg-remover",
