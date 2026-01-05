@@ -6,7 +6,7 @@ import { smallProjects } from "./projectData/smallProjects";
 
 const SmallProjects = () => {
   return (
-    <Wrapper id="small-projects" classes="bg-green-100 py-10 relative">
+    <Wrapper id="small-projects" classes="bg-green-100 py-10 pb-24 relative">
       <SectionTitle
         classes="text-center mb-5"
         title="Mini Endeavors"
@@ -18,7 +18,7 @@ const SmallProjects = () => {
         ))}
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full">
+      <div className="absolute -bottom-2 left-0 w-full pointer-events-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 100"

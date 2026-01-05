@@ -58,7 +58,7 @@ const MyDetails = () => {
             </button>
 
             <a
-              href="https://www.snapit.tech/pgbadgujar007/5w3jtzcp1e"
+              href="https://drive.google.com/file/d/15t0M3hBXfdHl9Mi1aoIIPymFTpeibG5Z/view"
               download
               className="text-sm px-5 mt-7 rounded-md uppercase font-semibold text-white tracking-wider hover:bg-blue-950 py-3 bg-blue-800 transition ease-linear delay-50 duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               target="_blank"

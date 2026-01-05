@@ -6,7 +6,7 @@ import {
 
 const About = () => {
   return (
-    <Wrapper id="about" classes="py-10 bg-blue-100 relative">
+    <Wrapper id="about" classes="py-10 pb-20 bg-blue-100 relative">
       <div className="max-w-6xl w-11/12 mx-auto grid gap-4 lg:grid-cols-2 items-center relative h-auto rounded-3xl">
         <div>
           <SectionTitle
@@ -54,7 +54,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full">
+      <div className="absolute bottom-0 left-0 w-full pointer-events-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 100"

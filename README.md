@@ -7,7 +7,7 @@
 [![Linkedin: Piyush](https://img.shields.io/badge/-Piyush-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/immortalwebdev/)](https://www.linkedin.com/in/immortalwebdev/)
 [![GitHub Piyush](https://img.shields.io/badge/GitHub-immortalWebDev-black?style=flat-square&logo=github)](https://github.com/immortalWebDev)
 [![Portfolio](https://img.shields.io/badge/Portfolio-visit-green)](https://web-portfolio-piyush.vercel.app/)
-[![Resume](https://img.shields.io/badge/Resume-View-orange)](https://www.snapit.tech/pgbadgujar007/5w3jtzcp1e)
+[![Resume](https://img.shields.io/badge/Resume-View-orange)](https://drive.google.com/file/d/15t0M3hBXfdHl9Mi1aoIIPymFTpeibG5Z/view)
 
 **About Me**
 
