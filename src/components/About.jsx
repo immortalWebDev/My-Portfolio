@@ -41,7 +41,7 @@ const About = () => {
             <br />I am seeking opportunities to leverage my skills in a{" "}
             <b>collaborative</b> and <b>forward-thinking</b> team where I can
             contribute meaningfully and continue to <b>grow</b> as a{" "}
-            <b>frontend</b> developer.
+            <b>web</b> developer with <strong>AI</strong> skills.
           </p>
         </div>
 
