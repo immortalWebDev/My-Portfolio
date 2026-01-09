@@ -14,18 +14,40 @@ const SingleProject = ({ projectInfo }) => {
             alt="Project Image"
           />
           <div className="absolute grid grid-rows-2 gap-3 border-cyan-900 transition ease-in-out delay-400 duration-700 opacity-0 group-hover:opacity-100 z-10 top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] text-center">
-            <div>
+            {projectInfo.title === "Movie Booking (User & Admin)" && <div>
+              <a
+                href={projectInfo.userLink}
+                className="bg-blue-500 text-white px-1 py-1 text-lg rounded-md capitalize m-2 hover:bg-blue-600 transition"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                User
+              </a>
+              <a
+                href={projectInfo.adminLink}
+                className="bg-blue-500 text-white px-1 py-1 text-lg rounded-md capitalize m-2 hover:bg-blue-600 transition"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Admin
+              </a>
+            </div>}
+            {projectInfo.title !== "Movie Booking (User & Admin)" && <div>
               <a
                 href={projectInfo.link}
                 className="bg-blue-500 text-white px-3 py-1 text-lg rounded-md capitalize m-6 hover:bg-blue-600 transition"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 See Live
               </a>
-            </div>
+            </div>}
             <div>
               <a
                 href={projectInfo.sourceCode}
                 className="bg-green-500 text-white px-3 py-1 text-lg rounded-md capitalize hover:bg-green-600 transition"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Source Code
               </a>

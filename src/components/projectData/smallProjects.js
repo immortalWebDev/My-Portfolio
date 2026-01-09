@@ -14,6 +14,15 @@ export const smallProjects = [
     sourceCode: "https://github.com/immortalWebDev/vista-ai-search",
   },
   {
+    title: "Movie Booking (User & Admin)",
+    technologies: ["React","Firebase","Redux Toolkit"],
+    img: "movie-user",
+    userLink: "https://movie-user-piyush.vercel.app/",
+    adminLink:"https://movie-admin-piyush.vercel.app/",
+    sourceCode: "https://github.com/immortalWebDev/movie-booking-user",
+  },
+
+  {
     title: "Background Remover",
     technologies: ["HTML", "CSS", "JavaScript","API"],
     img: "bg-remover",
