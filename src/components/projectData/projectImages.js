@@ -19,5 +19,6 @@ export const projectImages = {
     "goal-setter":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@acd5f5cd1b0ea3aaf3a5ced8fc92c43eb0b81ac5/todays-tasks/goal-setter.jpg",
     "ai-search":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@772e6aceb763c1d8cf7f786f1fdfe7676842896e/portfolio-images/ai-search.webp",
     "movie-user":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@39f57842c639cbf3b87cd1e5f9b99114dcaa3431/movie-user-admin/movie-user.webp",
+    "web-vital-repo":"https://cdn.jsdelivr.net/gh/immortalWebDev/my-cdn@964ce8703729ff3ce93c905de8124aff1b3091e9/web-vital-repo/web-vital-repo.webp"
   };
   

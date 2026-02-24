@@ -27,4 +27,11 @@ export const mainProjects = [
     link: "https://expense-tracker-piyush.vercel.app/signup",
     sourceCode: "https://github.com/immortalWebDev/Expense-Tracker",
   },
+  {
+    title: "Web vital reports",
+    technologies: ["HTML","GitHub Pages"],
+    img: "web-vital-repo",
+    link: "https://immortalwebdev.github.io/web-vitals-reports/",
+    sourceCode: "https://github.com/immortalWebDev/web-vitals-reports",
+  },
 ];
